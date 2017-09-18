@@ -15,7 +15,7 @@ import * as userTypes from '../statics/actions/user';
 const initialState = {
     auth:                   null,
     nonce:                  null,
-    currency:               'USD',
+    currency:               'CRDT',
     cards:                  [],
     orders:                 [], //todo
     payments:               [],

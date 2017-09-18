@@ -74,7 +74,7 @@ export const MainCardNavigator = StackNavigator({
 		screen: StoreSelect,
 		navigationOptions: {
 			// header: null
-			title: 'Pick your City'
+			title: 'Booqed pass'
 		}
 	},
   	Home: {

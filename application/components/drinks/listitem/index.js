@@ -44,7 +44,12 @@ export default ({item, addItem, disabled, navigate}) => {
 						}
 					>
 						<CardTitle>
-							<Text style={itemStyles.title}>{item.title}</Text>
+							<Text style={
+                                {
+                                    ...itemStyles.title,
+                                    maxWidth: '90%'
+                                }
+                            }>{item.title}</Text>
 						</CardTitle>
 						<CardTitle
 							styles={{
@@ -122,7 +127,7 @@ const itemStyles = {
 		textShadowOffset: 	{
 				height: 1,
 				width: 1,
-			}
+            },
 	},
 	titleDisabled: {
 		color: 	'rgba(255,255,255, .6)',

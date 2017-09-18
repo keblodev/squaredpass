@@ -23,7 +23,7 @@ export default [
 			title: 	'Campfire',
 			desc: 	'Your default choice',
 			price:	'24',
-			currency: 'USD',
+			currency: 'CRDT',
 			img:	drinksImgs[0][0]
 		},
 		{
@@ -31,7 +31,7 @@ export default [
 			title: 'Garage Society',
 			desc: 'Your second choice',
 			price:	'30',
-			currency: 'USD',
+			currency: 'CRDT',
 			img:	drinksImgs[0][1]
 		},
 		{
@@ -39,7 +39,7 @@ export default [
 			title: 'The Desk',
 			desc: 'I would not mind',
 			price:	'32',
-			currency: 'USD',
+			currency: 'CRDT',
 			img:	drinksImgs[0][2]
 		},
 		{
@@ -47,7 +47,7 @@ export default [
 			title: 'The Hive',
 			desc: 'Ice cream in coffee, or coffee in Icecream',
 			price:	'40',
-			currency: 'USD',
+			currency: 'CRDT',
 			img:	drinksImgs[0][3]
 		}
 	],
@@ -57,7 +57,7 @@ export default [
 			title: 	'District 6',
 			desc: 	'Your default choice',
 			price:	'34',
-			currency: 'USD',
+			currency: 'CRDT',
 			img:	drinksImgs[1][0]
 		},
 		{
@@ -65,7 +65,7 @@ export default [
 			title: 'JustCo',
 			desc: 'Your second choice',
 			price:	'30',
-			currency: 'USD',
+			currency: 'CRDT',
 			img:	drinksImgs[1][1]
 		},
 		{
@@ -73,7 +73,7 @@ export default [
 			title: 'The Lawn',
 			desc: 'I would not mind',
 			price:	'28',
-			currency: 'USD',
+			currency: 'CRDT',
 			img:	drinksImgs[1][2]
 		},
 		{
@@ -81,7 +81,7 @@ export default [
 			title: 'The Outpost',
 			desc: 'Ice cream in coffee, or coffee in Icecream',
 			price:	'35',
-			currency: 'USD',
+			currency: 'CRDT',
 			img:	drinksImgs[1][3]
 		}
 	]

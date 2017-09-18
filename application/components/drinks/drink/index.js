@@ -55,11 +55,15 @@ class Drink extends Component {
 								<CardTitle
                                     styles={{
                                         cardTitle: {
-                                            height: 100
+                                            height: 130
                                         }
                                     }}
                                 >
-									<Text style={itemStyles.title}>{item.title}</Text>
+									<Text style={{
+                                        ...itemStyles.title,
+                                        alignSelf: 'center',
+                                        maxWidth: '90%',
+                                    }}>{item.title}</Text>
 								</CardTitle>
 								<CardTitle
 									styles={{

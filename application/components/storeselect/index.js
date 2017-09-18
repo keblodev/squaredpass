@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { View, ScrollView, FlatList, Animated, Easing } from 'react-native';
+import { View, Text, ScrollView, FlatList, Animated, Easing } from 'react-native';
 
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
+import Button from 'react-native-button'
+
+import { connect }              from 'react-redux';
+import { bindActionCreators }   from 'redux';
 
 import StoreListItem from './storelistitem';
 
@@ -50,6 +52,48 @@ class StoreSelect extends Component {
 							})
 						}
 					</ScrollView>
+                    <View
+                        style={{
+                            flexDirection: 'row'
+                        }}
+                    >
+                        <Button
+                            style={styles.buttonStyleDisabled}
+                            dissabled={true}
+                        >
+                            <View
+                                style={{
+                                    padding:40,
+                                    paddingLeft: 60,
+                                    paddingRight: 60,
+                                }}
+                            >
+                                <Text style={{
+                                        fontSize: 20,
+                                        textAlign: 'center',
+                                        color:"#676565"
+                                    }}>TopUp</Text>
+                            </View>
+                        </Button>
+                        <Button
+                            style={styles.buttonStyleDisabled}
+                            dissabled={true}
+                        >
+                            <View
+                                style={{
+                                    padding:40,
+                                    paddingLeft: 60,
+                                    paddingRight: 60,
+                                }}
+                            >
+                                <Text style={{
+                                        fontSize: 20,
+                                        textAlign: 'center',
+                                        color:"#676565"
+                                    }}>QR scan</Text>
+                            </View>
+                        </Button>
+                    </View>
 			</View>
 		);
 	}
@@ -76,5 +120,12 @@ const styles = {
 		backgroundColor: 	'#41495a',
 		height: 			200,
 		width: 				'100%'
-    }
+    },
+    buttonDisabledStyle: {
+        backgroundColor: '#313744',
+        borderWidth: 0,
+    },
+    buttonDisabledTextStyle: {
+        color: '#BCBCBC',
+    },
 };
